@@ -54,14 +54,17 @@ timeboxing-app/
 
 ## 快速開始
 1. 安裝依賴
+```bash
 npm install
-
-2. 啟動開發伺服器
+```
+3. 啟動開發伺服器
+```bash
 npm run dev
-
-3. 建立生產版本
+```
+5. 建立生產版本
+```bash
 npm run build
-
+```
 ## 未來開發路線 (Roadmap)
 
 Cloud Sync: 整合 Firebase 實現跨裝置存取。
