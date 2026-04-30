@@ -5,7 +5,6 @@
 ---
 
 <a name="english"></a>
-## English
 
 A visualized TimeBoxing Operating System designed for high-performance individuals. Transform chaotic inspiration into precise execution plans through AI-driven task deconstruction and a frictionless Pomodoro interface.
 
@@ -26,7 +25,6 @@ A visualized TimeBoxing Operating System designed for high-performance individua
 ---
 
 <a name="traditional-chinese"></a>
-## 繁體中文
 
 一個專為高效能人士設計的 TimeBoxing 視覺化作業系統。透過 AI 驅動的任務解構與無摩擦的番茄鐘互動介面，幫助使用者將混亂的靈感轉化為精確的執行計畫。
 
