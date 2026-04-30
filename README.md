@@ -1,42 +1,78 @@
 # TimeBoxing pOS (Personal OS)
 
-一個專為高效能人士設計的 TimeBoxing 視覺化作業系統。透過 AI 驅動的任務解構與無摩擦的番茄鐘互動介面，幫助使用者將混亂的靈感轉化為精確的執行計畫。
-
-## 核心特色
-
-### 1. AI Brain Dump (大腦卸載)
-* 結構化萃取：輸入一段雜亂的文字，AI 會自動辨識任務名稱、優先順序與預估時間。
-* 阻力降維：AI 支援將複雜任務一鍵解構為多個微任務，降低開始工作的心理門檻。
-
-### 2. 視覺化畫布 (Time-Blocking Canvas)
-* 無縫拖放：直接將任務從待辦清單拖入時間軸。
-* 動態網格：支援 5/10/15/30 分鐘多種網格間距切換。
-* 當前線條：實時紅線追蹤，讓你一眼看出現在與計畫的落差。
-
-### 3. 進階番茄鐘 (Advanced Pomodoro)
-* 尺規調節：獨創的滾輪尺規調節時長，支援 120 分鐘長專注或無限正計時模式。
-* 無摩擦啟動：將任務丟入番茄鐘即可立即開始，無需多餘點擊。
-* 防呆中斷：長按取消機制，防止誤觸，並支援 5 分鐘內無痕取消。
-
-### 4. 任務分層管理
-* 優先順序：區分 Starred (優先) 與 Regular 任務。
-* 父子階層：支援子任務結構，適合處理大型專案。
+[English](#english) | [繁體中文](#traditional-chinese)
 
 ---
 
-## 技術架構
+<a name="english"></a>
+## English
 
-本專案採用 MVVM 概念進行解耦，確保 UI 與邏輯的分離：
+A visualized TimeBoxing Operating System designed for high-performance individuals. Transform chaotic inspiration into precise execution plans through AI-driven task deconstruction and a frictionless Pomodoro interface.
+
+### Core Features
+* **AI Brain Dump**: Automatically identifies task names, priorities, and estimated durations from raw text input.
+* **Time-Blocking Canvas**: Seamless drag-and-drop task scheduling with dynamic grids (5/10/15/30 min).
+* **Advanced Pomodoro**: Unique ruler-style duration adjustment, supporting long focus sessions or infinite stopwatch mode.
+* **Task Hierarchy**: Supports Starred tasks and sub-task structures for complex project management.
+
+### Future Roadmap
+* **Atmosphere & Focus**: Ambient soundscapes (YTP-style) and specialized Dark Mode for deep work.
+* **Ecosystem**: Cloud sync and "System Showcase" for sharing personal workflow templates.
+* **Mission Report**: "Mars Mission" style feedback loops to track internal/external distractions and productivity gaps.
+* **Mobile Hardware Control**: 
+    - **Gyroscope Focus**: "Flip to Focus" mode using hardware sensors to detect device movement.
+    - **App Locking**: Deep integration with Screen Time APIs to block digital distractions during sessions.
+
+---
+
+<a name="traditional-chinese"></a>
+## 繁體中文
+
+一個專為高效能人士設計的 TimeBoxing 視覺化作業系統。透過 AI 驅動的任務解構與無摩擦的番茄鐘互動介面，幫助使用者將混亂的靈感轉化為精確的執行計畫。
+
+### 核心特色
+* **AI Brain Dump (大腦卸載)**：輸入雜亂文字，AI 自動辨識任務名稱、優先順序與預估時間。
+* **視覺化畫布 (Time-Blocking Canvas)**：無縫拖放任務至時間軸，支援 5/10/15/30 分鐘動態網格切換。
+* **進階番茄鐘 (Advanced Pomodoro)**：獨創滾輪尺規調節時長，支援 120 分鐘長專注或無限正計時模式。
+* **任務分層管理**：區分 Starred (優先) 與 Regular 任務，支援子任務結構。
+
+### 未來開發路線 (Roadmap)
+
+#### 1. 視覺與沉浸體驗 (Atmosphere & Focus)
+* **深色模式與主題**: 深度優化深夜專注介面，提供低對比度配色以減輕眼部負擔。
+* **環境音場 (Ambient Soundscape)**：內建白噪音與環境音控制器（如：雨聲、太空艙低鳴），支援與任務節奏同步變換音場。
+
+#### 2. 資料同步與生態粘滯性 (Ecosystem & Retention)
+* **Cloud Sync**: 整合 Firebase 實現多端同步，讓桌面端規劃與行動端執行無縫接軌。
+* **個人系統分享 (System Showcase)**：支援匯出個人 TimeBoxing 模板與工作流，透過分享建立社群連結感。
+* **增強粘滯性**: 提供雲端儲存空間與進階數據分析報告，建立使用者長期依賴的生產力基石。
+
+#### 3. 數據洞察與火星任務回報 (Analytics & Feedback)
+* **火星任務回報機制 (Mission Report)**：
+    - 參考太空探索回報機制，在每個任務結束後引導使用者進行極簡的「狀態回傳」。
+    - 紀錄中斷原因（外擾/內耗），並在週報中具體呈現阻礙因素，將計時轉化為「作戰紀錄」。
+
+#### 4. 協作與社交動力 (Collaboration & Social)
+* **共享畫布 (Collaborative Canvas)**：支援團隊成員查看彼此的專注時段（不顯示具體內容），實現非同步的共同專注感。
+
+#### 5. 行動端硬體整合 (Mobile Edge & Control)
+* **陀螺儀專注檢測 (Gyroscope Focus)**：
+    - **翻轉專注模式**：啟動後手機需螢幕朝下，利用陀螺儀偵測移動，若手機被拿起則記錄為「專注偏移」。
+* **螢幕時間與應用鎖 (Screen Time Integration)**：
+    - **深度干擾阻斷**：專注時段內自動限制社交媒體存取。
+    - **數據映射**：將手機使用時間與計畫畫布對比，視覺化數位分心對計畫造成的延誤。
+
+---
+
+## 技術架構 (Technical Stack)
 
 * Frontend Framework: React (Hooks)
 * Styling: Tailwind CSS
 * Build Tool: Vite
-* Icons Library: Lucide React (用於 UI 介面)
+* Icons Library: Lucide React
 * State Management: React Local State
 
----
-
-## 資料夾結構說明
+## 資料夾結構 (Directory Structure)
 
 ```text
 timeboxing-app/
@@ -65,37 +101,6 @@ npm run dev
 ```bash
 npm run build
 ```
-## 未來開發路線 (Roadmap)
 
-### 1. 視覺與沉浸體驗 (Atmosphere & Focus)
-* **Dark Mode & Themes**: 深度優化深夜專注模式，提供低對比度介面，減輕長時間工作的眼部負擔。
-* **YTP 近似環境功能 (Ambient Soundscape)**：
-    - 內建白噪音與環境音控制器（如：雨聲、咖啡廳雜音、太空艙低鳴）。
-    - 支援與任務節奏同步的音場變換，進入專注期時自動切換至深度專注音效。
-
-### 2. 資料同步與生態粘滯性 (Ecosystem & Retention)
-* **Cloud Sync (Firebase Integration)**：實現多端同步，讓使用者在桌面端規畫、行動端執行。
-* **增強粘滯性的雙軌機制**：
-    - **個人系統分享 (System Showcase)**：允許使用者匯出自己的 TimeBoxing 模板與工作流程配置。當他人採用你的系統時，會建立社群連結感。
-    - **免費/進階會員體系**：透過雲端儲存空間、自定義音場與進階數據分析，建立使用者與平台的長期依存關係。
-
-### 3. 數據洞察與火星任務回報 (Analytics & Feedback)
-* **每週生產力報告**：自動分析「計畫 vs 實際執行」的落差，找出使用者的「高能時段」。
-* **火星任務回報機制 (Mission Report)**：
-    - 參考太空探索的回報機制，在每個番茄鐘或任務結束後，引導使用者進行極簡的「狀態回傳」。
-    - 紀錄中斷原因（外擾/內耗），並在週報中具體呈現哪些因素阻礙了任務達成，將單純的計時轉化為「作戰紀錄」。
-
-### 4. 協作與社交動力 (Collaboration & Social)
-* **共享畫布 (Collaborative Canvas)**：支援團隊成員查看彼此的「專注時段」（不顯示具體內容），實現非同步的「共同專注」。
-* **專注挑戰賽**：建立類似於火星探測隊的虛擬小隊，透過共同達成專注時數，提升工具的使用趣味與社交壓力。
-
-### 5. 行動端硬體整合 (Mobile Edge & Control)
-為了極大化降低環境干擾，行動端將引入硬體級的專注保護機制：
-
-* **陀螺儀專注檢測 (Gyroscope Focus)**：
-    - **翻轉專注模式**：啟動番茄鐘後，使用者必須將手機「螢幕朝下」放置。
-    - **物理提醒**：利用陀螺儀偵測手機是否被拿起，若在專注期間移動手機，App 將發出震動提醒或在回報中紀錄為「專注偏移」。
-* **螢幕時間與應用鎖 (Screen Time Integration)**：
-    - **深度干擾阻斷**：在專注時段內，自動限制社交媒體與娛樂 App 的存取權限。
-    - **數據映射**：將手機使用時間與 TimeBoxing 畫布對比，視覺化呈現「數位分心」對計畫造成的延誤。
-* **低功耗環境音 (LOD Audio)**：針對行動端優化的背景音引擎，確保在鎖屏狀態下仍能維持沉浸式的音場體驗。
+## 授權條款 (License)
+MIT License.
