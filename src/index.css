@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TimeBoxing pOS 專屬隱藏與拖曳樣式 */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+.mask-edges {
+  mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+}
+.task-block { user-select: none; -webkit-user-select: none; touch-action: pan-y; }
+body.is-task-dragging .task-block > * { pointer-events: none !important; }
+.task-block.dragging-active { opacity: 0.5 !important; transform: scale(0.98); }
+input[type="time"]::-webkit-calendar-picker-indicator { cursor: pointer; }
