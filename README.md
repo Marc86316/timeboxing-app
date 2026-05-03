@@ -45,9 +45,9 @@ A visualized TimeBoxing Operating System designed for high-performance individua
 * **個人系統分享 (System Showcase)**：支援匯出個人 TimeBoxing 模板與工作流，透過分享建立社群連結感。
 * **增強粘滯性**: 提供雲端儲存空間與進階數據分析報告，建立使用者長期依賴的生產力基石。
 
-#### 3. 數據洞察與火星任務回報 (Analytics & Feedback)
-* **火星任務回報機制 (Mission Report)**：
-    - 參考太空探索回報機制，在每個任務結束後引導使用者進行極簡的「狀態回傳」。
+#### 3. 數據洞察與任務回報 (Analytics & Feedback)
+* **任務回報機制 (Mission Report)**：
+    - 參考「太空探索」電影的回報機制，在每個任務結束後引導使用者進行極簡的「狀態回傳」。
     - 紀錄中斷原因（外擾/內耗），並在週報中具體呈現阻礙因素，將計時轉化為「作戰紀錄」。
 
 #### 4. 協作與社交動力 (Collaboration & Social)
