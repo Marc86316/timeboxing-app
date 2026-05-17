@@ -6,7 +6,7 @@ timeboxing-app/
 │   ├── main.jsx                # 渲染 React 根節點
 │   ├── components/             # UI 視圖層：獨立的功能組件
 │   │   ├── Canvas.jsx          # 計畫畫布：視覺化時間軸與動態網格 (5-30min)
-│   │   ├── BrainDump.jsx       # AI 大腦卸載：處理文字輸入與 AI 辨識介面
+│   │   ├── BrainDump.jsx       # 大腦卸載：處理文字輸入與 AI 辨識介面
 │   │   ├── Pomodoro.jsx        # 進階番茄鐘：包含滾輪尺規調節功能
 │   │   └── MissionReport.jsx   # 任務回報：顯示作戰紀錄與分心數據對比
 │   ├── hooks/                  # 邏輯隔離層：自定義 Hooks
